@@ -19,7 +19,6 @@ export const AppWrapper = Component => props => {
         backgroundColor={COLORS.blue}
         barStyle="light-content"
       />
-      <NetworkStatus />
       <ScrollView
         overScrollMode={'always'}
         style={[{flex: 1}, props.contentStyle]}
