@@ -15,7 +15,7 @@
 1. yarn or npm i
 2. cd ios
 3. pod install
-4 cd ..
+4. cd ..
 ```
 ### Running Android App in Debug Mode
 ```
@@ -25,7 +25,7 @@ react-native run-android
 ```
 react-native run-ios 
 ```
-## _Running Android in Release Build
+## Running Android in Release Build
 ### Generate .apk file
 ```
 1. cd andorid
@@ -43,8 +43,8 @@ react-native run-ios
 2. react-native run-android --variant=release
 ```
 
-## _Running iOS App in Release Build
+## Running iOS App in Release Build
 ```
-1. Xcode -> product -> Scheme -> Edit Scheme -> Change Build Configuration Relase -> connect your phone & run
+1. Xcode -> product -> Scheme -> Edit Scheme -> Change Build Configuration Relase -> connect your phone & Run
 ```
 
