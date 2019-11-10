@@ -48,7 +48,7 @@ class Login extends Component {
     }
   };
   _login = () => {
-    this.props.setLoading(true);
+
     if (!this.userName) {
       this.userError = {borderColor: COLORS.red, borderWidth: 1};
       this.userNamePlaceholder = 'Please enter your email';
@@ -62,6 +62,7 @@ class Login extends Component {
       return;
     }
     //Simulating Network calls
+    this.props.setLoading(true);
     this.checkUser(this.userName, this.password);
   };
 
