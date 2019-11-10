@@ -30,7 +30,7 @@ react-native run-ios
 ```
 1. cd andorid
 2. ./gradlew assembleRelease
-3. Multiple Build is enabled to reduce app size based cpu architecture with universal apk file as well.
+3. Multiple Build is enabled to reduce app size based on cpu architecture with universal apk file as well.
 ```
 ### Generate Bundle file
 ```
