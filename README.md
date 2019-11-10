@@ -1,13 +1,13 @@
 # Bounce Task React Native
 
-> React Native Component Library v1.0
-
 ## _Features_
 
-- Built with `npm init`
-- Runs with lightening fast `facebook's watchman`
-- Configured _React v16.9.0, React-Native v0.60_ as peer dependency
-- Auto Linking after adding any npm package so don't run link cmd using react-native link
+- Built with `react-native v0.61.2`
+- MobX, HOC, Hooks, Pure Components, Stateless Components
+- Supports SVG Image as Component
+- Responsive Screen
+- Splash screen with logo
+
 
 ## _Getting started_
 ### Installing Dependency
@@ -45,6 +45,6 @@ react-native run-ios
 
 ## _Running iOS App in Release Build
 ```
-1. Xcode -> product -> Scheme -> Edit Scheme -> Change Build Configuration Relase
+1. Xcode -> product -> Scheme -> Edit Scheme -> Change Build Configuration Relase -> connect your phone & run
 ```
 
